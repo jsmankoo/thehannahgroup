@@ -1,0 +1,210 @@
+{
+  "SEO" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "placeholder" : "UID"
+      }
+    },
+    "PageTitle" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Page Title ...",
+        "label" : "Page Title"
+      }
+    },
+    "PageDescription" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Page Description ...",
+        "label" : "Page Description"
+      }
+    }
+  },
+  "Featured Listings" : {
+    "Search MLS" : {
+      "type" : "Link",
+      "fieldset" : "Link to MLS Search",
+      "config" : {
+        "placeholder" : "Link to MLS Search"
+      }
+    },
+    "Properties" : {
+      "fieldset" : "Properties",
+      "type" : "Group",
+      "config" : {
+        "repeat" : true,
+        "fields" : {
+          "Address" : {
+            "type" : "Text",
+            "config" : {
+              "placeholder" : "Address ..."
+            }
+          },
+          "Price" : {
+            "type" : "Text",
+            "config" : {
+              "placeholder" : "Price ..."
+            }
+          },
+          "Link" : {
+            "type" : "Link",
+            "config" : {
+              "placeholder" : "Link to Property ..."
+            }
+          },
+          "Photo" : {
+            "type" : "Image",
+            "config" : {
+              "placeholder" : "Property featured image ...",
+              "constraint" : {
+                "height" : 300,
+                "width" : 450
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Profile" : {
+    "Name" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Name ..."
+      }
+    },
+    "Paragraph" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : " Markdown ..."
+      }
+    },
+    "Profile Pic" : {
+      "type" : "Image",
+      "config" : {
+        "placeholder" : "Profile Pic ...",
+        "constraint" : {
+          "width" : 291,
+          "height" : 350
+        }
+      }
+    },
+    "Mobile Pic" : {
+      "type" : "Image",
+      "config" : {
+        "placeholder" : "Mobile Pic ...",
+        "constraint" : {
+          "width" : 250,
+          "height" : 250
+        }
+      }
+    },
+    "BackgroundImage" : {
+      "type" : "Image",
+      "config" : {
+        "placeholder" : "Background Image ..."
+      }
+    }
+  },
+  "Bottom" : {
+    "botHeading" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Generic heading"
+      }
+    },
+    "botSubHeading" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Generic Subheading"
+      }
+    },
+    "botParagragh" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : " Paragraph ..."
+      }
+    },
+    "MobileLink" : {
+      "type" : "Link",
+      "config" : {
+        "placeholder" : "mobile link ..."
+      }
+    },
+    "Mobile" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Mobile Number ..."
+      }
+    },
+    "EmailLink" : {
+      "type" : "Link",
+      "config" : {
+        "placeholder" : "Email link ..."
+      }
+    },
+    "Email" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Email Text ..."
+      }
+    },
+    "AddressLink" : {
+      "type" : "Link",
+      "config" : {
+        "placeholder" : "Address Link..."
+      }
+    },
+    "Address" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Address"
+      }
+    }
+  },
+  "Footer" : {
+    "Copyright" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Copyright ..."
+      }
+    },
+    "Information" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Information ..."
+      }
+    },
+    "Envelope" : {
+      "type" : "Link",
+      "config" : {
+        "placeholder" : "Email link ..."
+      }
+    },
+    "facebook" : {
+      "type" : "Link",
+      "config" : {
+        "placeholder" : "facebook link ..."
+      }
+    },
+    "Twitter" : {
+      "type" : "Link",
+      "config" : {
+        "placeholder" : "Twitter link ..."
+      }
+    },
+    "Instagram" : {
+      "type" : "Link",
+      "config" : {
+        "placeholder" : "Instagram link ..."
+      }
+    },
+    "Developer" : {
+      "type" : "Text",
+      "config" : {
+        "placeholder" : "Developer ..."
+      }
+    }
+  }
+}

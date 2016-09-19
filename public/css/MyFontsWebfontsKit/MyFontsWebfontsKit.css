@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3225349, 2016-05-27T17:12:27-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BlairITCStd by ITC
+ * URL: http://www.myfonts.com/fonts/itc/blair/std-medium/
+ * Copyright: Copyright 1997 International Typeface Corporation. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3225349
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/313705");
+
+  
+@font-face {font-family: 'BlairITCStd';src: url('webfonts/313705_0_0.eot');src: url('webfonts/313705_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/313705_0_0.woff2') format('woff2'),url('webfonts/313705_0_0.woff') format('woff'),url('webfonts/313705_0_0.ttf') format('truetype');}
+ 

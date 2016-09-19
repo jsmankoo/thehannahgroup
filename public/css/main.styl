@@ -1,0 +1,234 @@
+@import "axis"
+// @import "jeet"
+@import "rupture"
+@import "./variables"
+
+// Resets
+border-box-html()
+global-reset()
+
+a
+  text-decoration: none
+  color #D21341
+  &:hover
+    color #980D2F
+
+h1
+.H1
+  h1()
+  font-family: fontsHead
+  font-weight: 400
+  margin: 0
+  // font-size: 30px
+  // +above(768px)
+  //   font-size: 60px
+h2
+.H2
+  h2()
+  font-family: fontsHead
+  font-weight: 400
+  margin: 0
+  // margin 25px auto
+  // padding: 0px
+h3
+.H3
+  h3()
+  font-family: fontsHead
+  font-weight: 400
+  margin: 0
+  // font-size: 12px
+  // line-height: 13px
+  // +above(768px)
+  //   font-size: 13px
+  //   line-height: 13px
+h4
+.H4
+  h4()
+  font-family: fontsHead
+  font-weight: 400
+  margin: 0
+  // font-size: 10px
+  // line-height: 13px
+  // +above(768px)
+  //   font-size: 13px
+  //   line-height: 13px
+h5
+.H5
+  h5()
+  font-family: fontsHead
+  font-weight: 400
+  margin: 0
+h6
+.H6
+  h6()
+  font-family: fontsHead
+  font-weight: 400
+  margin: 0
+p
+  normal()
+  font-family: fontsMain
+  font-weight: 400
+  font-size: 16px
+  line-height: 20px
+  padding 10px
+  +above(768px)
+    font-size: 18px
+    line-height: 25px
+    padding 10px 0px
+
+.slider-decorator-0
+.slider-decorator-1
+  display: none
+
+html body
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+  font-weight: 400
+  relative()
+  font-family: fontsMain
+  .owl-theme
+    .owl-controls
+      .owl-page
+        span
+          background: #D21341
+  #ihf-main-container
+    relative()
+    .btn-link
+      color blue
+      text-decoration: none
+      &:hover
+        color darkBlue
+    .btn-primary
+      border-radius: 0px
+      background-color: blue
+      color white
+      &:hover
+        color lightBlue
+        background-color: darkBlue
+    .modal
+      .modal-dialog
+        padding: 100px 10px 0px
+        .modal-content
+          border-radius: 0px
+          .modal-header
+            background-color: blue
+            border-radius: 0px
+            button
+              background-color: white
+              color blue
+              opacity: 1
+              border-radius: 0px
+              border none
+          .modal-body
+            .panel.panel-default
+              border-radius: 0px
+  #ihomefinder
+    padding 50px 0px
+    min-height: 100%
+    margin: auto 0px
+    display: block
+    #ihf-main-container
+      .chosen-container
+        .chosen-single
+          border-radius: 0px
+        .chosen-results
+          margin: 0px
+          padding: 0px
+          li.active-result.highlighted
+            background-color: blue
+            color white
+      #areaPickerExpandAllContainer
+        background-color: white
+        border-radius: 0px
+      .areaUnselected:hover
+        background-color: blue
+        color white
+        border-radius: 0px
+      .areaPickerExpandAllTopBar
+        border-radius: 0px
+        background-color: blue
+        color white
+        &:hover
+          background-color: darkBlue
+          color lightBlue
+          .glyphicon
+            color white !important
+        .badge
+          background-color: blue
+      .input-group-addon
+        border-radius: 0px
+        background-color: blue
+        color white
+        &:hover
+        &:active
+          color lightBlue
+          background-color: darkBlue
+      .nav-tabs
+        li
+        li.active
+          a
+            border-radius: 0px
+            color blue
+            &:hover
+            &:active
+              background-color: blue
+              color white
+      .dropdown-menu
+        li
+          &.active
+            a
+              background-color: blue
+              color white
+          a
+            color blue
+            &:hover
+            &:focus
+              background-color: blue
+              color white
+      .form-control
+        border-radius: 0px
+        option:hover
+          background-color: blue
+      .input-text
+      input[type='text']
+      input[type='input']
+        border-radius: 0px !important
+      a
+        text-decoration: none
+        color blue
+        &:hover
+        &:active
+          color lightBlue
+      .well
+        border-radius: 0px
+        a
+          color blue
+          &:hover
+          &:active
+            color lightBlue
+      .title-bar-1
+        background-color: blue
+        border-radius: 0px
+        border none
+        color white
+        a
+          color white
+          &:hover
+          &:active
+            color lightBlue
+      .btn
+        border-radius: 0px
+        background-color: blue
+        border 1px solid white
+        text-decoration: none
+        color white
+        &:hover
+        &.active
+          background-color: darkBlue
+          color lightBlue
+        .caret
+          borber-top-color white
+          &:hover
+          &:active
+            borber-top-color lightBlue

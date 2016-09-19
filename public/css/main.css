@@ -1,0 +1,385 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #d21341;
+}
+a:hover {
+  color: #980d2f;
+}
+h1,
+.H1 {
+  font-size: 38.4px;
+  font-size: 2.4rem;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+  margin: 0.75em 0;
+  line-height: 1.6em;
+  font-family: 'trajan-pro-3';
+  font-weight: 400;
+  margin: 0;
+}
+h2,
+.H2 {
+  font-size: 28.8px;
+  font-size: 1.8rem;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+  margin: 0.75em 0;
+  line-height: 1.6em;
+  font-family: 'trajan-pro-3';
+  font-weight: 400;
+  margin: 0;
+}
+h3,
+.H3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+  margin: 0.75em 0;
+  line-height: 1.6em;
+  font-family: 'trajan-pro-3';
+  font-weight: 400;
+  margin: 0;
+}
+h4,
+.H4 {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+  margin: 0.75em 0;
+  line-height: 1.6em;
+  font-family: 'trajan-pro-3';
+  font-weight: 400;
+  margin: 0;
+}
+h5,
+.H5 {
+  font-size: 16px;
+  font-size: 1rem;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+  margin: 0.75em 0;
+  line-height: 1.6em;
+  font-family: 'trajan-pro-3';
+  font-weight: 400;
+  margin: 0;
+}
+h6,
+.H6 {
+  font-size: 14.4px;
+  font-size: 0.9rem;
+  text-rendering: optimizelegibility;
+  font-weight: bold;
+  margin: 0.75em 0;
+  line-height: 1.6em;
+  text-transform: uppercase;
+  font-family: 'trajan-pro-3';
+  font-weight: 400;
+  margin: 0;
+}
+p {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'proxima-nova';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+}
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 0px;
+  }
+}
+.slider-decorator-0,
+.slider-decorator-1 {
+  display: none;
+}
+html body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-weight: 400;
+  position: relative;
+  font-family: 'proxima-nova';
+}
+html body .owl-theme .owl-controls .owl-page span {
+  background: #d21341;
+}
+html body #ihf-main-container {
+  position: relative;
+}
+html body #ihf-main-container .btn-link {
+  color: #5c858e;
+  text-decoration: none;
+}
+html body #ihf-main-container .btn-link:hover {
+  color: #374f56;
+}
+html body #ihf-main-container .btn-primary {
+  border-radius: 0px;
+  background-color: #5c858e;
+  color: #fff;
+}
+html body #ihf-main-container .btn-primary:hover {
+  color: #a3edff;
+  background-color: #374f56;
+}
+html body #ihf-main-container .modal .modal-dialog {
+  padding: 100px 10px 0px;
+}
+html body #ihf-main-container .modal .modal-dialog .modal-content {
+  border-radius: 0px;
+}
+html body #ihf-main-container .modal .modal-dialog .modal-content .modal-header {
+  background-color: #5c858e;
+  border-radius: 0px;
+}
+html body #ihf-main-container .modal .modal-dialog .modal-content .modal-header button {
+  background-color: #fff;
+  color: #5c858e;
+  opacity: 1;
+  border-radius: 0px;
+  border: none;
+}
+html body #ihf-main-container .modal .modal-dialog .modal-content .modal-body .panel.panel-default {
+  border-radius: 0px;
+}
+html body #ihomefinder {
+  padding: 50px 0px;
+  min-height: 100%;
+  margin: auto 0px;
+  display: block;
+}
+html body #ihomefinder #ihf-main-container .chosen-container .chosen-single {
+  border-radius: 0px;
+}
+html body #ihomefinder #ihf-main-container .chosen-container .chosen-results {
+  margin: 0px;
+  padding: 0px;
+}
+html body #ihomefinder #ihf-main-container .chosen-container .chosen-results li.active-result.highlighted {
+  background-color: #5c858e;
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container #areaPickerExpandAllContainer {
+  background-color: #fff;
+  border-radius: 0px;
+}
+html body #ihomefinder #ihf-main-container .areaUnselected:hover {
+  background-color: #5c858e;
+  color: #fff;
+  border-radius: 0px;
+}
+html body #ihomefinder #ihf-main-container .areaPickerExpandAllTopBar {
+  border-radius: 0px;
+  background-color: #5c858e;
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container .areaPickerExpandAllTopBar:hover {
+  background-color: #374f56;
+  color: #a3edff;
+}
+html body #ihomefinder #ihf-main-container .areaPickerExpandAllTopBar:hover .glyphicon {
+  color: #fff !important;
+}
+html body #ihomefinder #ihf-main-container .areaPickerExpandAllTopBar .badge {
+  background-color: #5c858e;
+}
+html body #ihomefinder #ihf-main-container .input-group-addon {
+  border-radius: 0px;
+  background-color: #5c858e;
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container .input-group-addon:hover,
+html body #ihomefinder #ihf-main-container .input-group-addon:active {
+  color: #a3edff;
+  background-color: #374f56;
+}
+html body #ihomefinder #ihf-main-container .nav-tabs li a,
+html body #ihomefinder #ihf-main-container .nav-tabs li.active a {
+  border-radius: 0px;
+  color: #5c858e;
+}
+html body #ihomefinder #ihf-main-container .nav-tabs li a:hover,
+html body #ihomefinder #ihf-main-container .nav-tabs li.active a:hover,
+html body #ihomefinder #ihf-main-container .nav-tabs li a:active,
+html body #ihomefinder #ihf-main-container .nav-tabs li.active a:active {
+  background-color: #5c858e;
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container .dropdown-menu li.active a {
+  background-color: #5c858e;
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container .dropdown-menu li a {
+  color: #5c858e;
+}
+html body #ihomefinder #ihf-main-container .dropdown-menu li a:hover,
+html body #ihomefinder #ihf-main-container .dropdown-menu li a:focus {
+  background-color: #5c858e;
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container .form-control {
+  border-radius: 0px;
+}
+html body #ihomefinder #ihf-main-container .form-control option:hover {
+  background-color: #5c858e;
+}
+html body #ihomefinder #ihf-main-container .input-text,
+html body #ihomefinder #ihf-main-container input[type='text'],
+html body #ihomefinder #ihf-main-container input[type='input'] {
+  border-radius: 0px !important;
+}
+html body #ihomefinder #ihf-main-container a {
+  text-decoration: none;
+  color: #5c858e;
+}
+html body #ihomefinder #ihf-main-container a:hover,
+html body #ihomefinder #ihf-main-container a:active {
+  color: #a3edff;
+}
+html body #ihomefinder #ihf-main-container .well {
+  border-radius: 0px;
+}
+html body #ihomefinder #ihf-main-container .well a {
+  color: #5c858e;
+}
+html body #ihomefinder #ihf-main-container .well a:hover,
+html body #ihomefinder #ihf-main-container .well a:active {
+  color: #a3edff;
+}
+html body #ihomefinder #ihf-main-container .title-bar-1 {
+  background-color: #5c858e;
+  border-radius: 0px;
+  border: none;
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container .title-bar-1 a {
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container .title-bar-1 a:hover,
+html body #ihomefinder #ihf-main-container .title-bar-1 a:active {
+  color: #a3edff;
+}
+html body #ihomefinder #ihf-main-container .btn {
+  border-radius: 0px;
+  background-color: #5c858e;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+}
+html body #ihomefinder #ihf-main-container .btn:hover,
+html body #ihomefinder #ihf-main-container .btn.active {
+  background-color: #374f56;
+  color: #a3edff;
+}
+html body #ihomefinder #ihf-main-container .btn .caret {
+  borber-top-color: #fff;
+}
+html body #ihomefinder #ihf-main-container .btn .caret:hover,
+html body #ihomefinder #ihf-main-container .btn .caret:active {
+  borber-top-color: #a3edff;
+}

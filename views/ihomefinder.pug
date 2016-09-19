@@ -1,0 +1,34 @@
+doctype html
+html.no-js(lang='en-us')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title Sample App
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css')
+    link( rel="stylesheet" href="http://robertchristie-purelisting.rhcloud.com/css/MyFontsWebfontsKit/MyFontsWebfontsKit.css" media="screen" title="Head Font" charset="utf-8")
+    link(rel='stylesheet', href='http://robertchristie-purelisting.rhcloud.com/css/main.css')
+    script( src="https://use.typekit.net/nhp8yey.js")
+    script try{Typekit.load({ async: true });}catch(e){}
+  body
+    |<!--[if lt IE 9]>
+    |    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    |<![endif]-->
+
+    //- React  App
+    #navApp
+    #ihomefinder
+    #footApp
+
+    script( src='http://robertchristie-purelisting.rhcloud.com/js/iHomefinderNav.js')
+    script( src='http://robertchristie-purelisting.rhcloud.com/js/iHomefinderFoot.js')
+    //- script( src='/js/iHomefinderNav.js')
+    //- script( src='/js/iHomefinderFoot.js')
+
+    // Google Analytics: change UA-XXXXX-Y to be your site's ID.
+    script.
+      window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+      ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+    script(src='https://www.google-analytics.com/analytics.js', async='', defer='')
